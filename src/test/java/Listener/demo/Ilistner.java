@@ -43,7 +43,9 @@ public class Ilistner {
 
 				driver.findElement(By.name("username")).sendKeys("Admin");
 
+				Thread.sleep(5000);
 				// enter password
+				
 
 				driver.findElement(By.name("password")).sendKeys("admin123");
 

@@ -15,7 +15,7 @@ public class BaseTest {
      @BeforeSuite
       public void initDriver() {
     	 
-    	 ExtentReportUtils.setUpReport();
+    	
     	  driver =new ChromeDriver();
     	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     	  driver.manage().window().maximize();

@@ -2,26 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-13T16:51:50 IST" name="Suite" finished-at="2025-01-13T16:51:54 IST" duration-ms="3923">
+  <suite started-at="2025-01-17T18:51:38 IST" name="sampleSuite" finished-at="2025-01-17T18:51:56 IST" duration-ms="18197">
     <groups>
     </groups>
-    <test started-at="2025-01-13T16:51:50 IST" name="Test" finished-at="2025-01-13T16:51:54 IST" duration-ms="3923">
-      <class name="com.orange.hrm.test.LoginTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.orange.hrm.test.LoginTest@fa4c865]" started-at="2025-01-13T16:51:45 IST" name="initDriver" finished-at="2025-01-13T16:51:50 IST" duration-ms="5164" status="PASS">
+    <test started-at="2025-01-17T18:51:38 IST" name="orangehrm" finished-at="2025-01-17T18:51:56 IST" duration-ms="18197">
+      <class name="testng.demo.xmlfile">
+        <test-method signature="loginToApplication()[pri:1, instance:testng.demo.xmlfile@10683d9d]" started-at="2025-01-17T18:51:38 IST" name="loginToApplication" finished-at="2025-01-17T18:51:53 IST" duration-ms="15401" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method signature="loginWithValidUserNameAndValidPassword()[pri:0, instance:com.orange.hrm.test.LoginTest@fa4c865]" started-at="2025-01-13T16:51:50 IST" name="loginWithValidUserNameAndValidPassword" finished-at="2025-01-13T16:51:52 IST" duration-ms="2038" status="PASS">
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="searchLeave()[pri:2, instance:testng.demo.xmlfile@10683d9d]" started-at="2025-01-17T18:51:53 IST" name="searchLeave" finished-at="2025-01-17T18:51:56 IST" duration-ms="2762" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithValidUserNameAndValidPassword -->
-      </class> <!-- com.orange.hrm.test.LoginTest -->
-      <class name="com.orange.hrm.test.HomePageTest">
-        <test-method signature="logout()[pri:0, instance:com.orange.hrm.test.HomePageTest@5e5d171f]" started-at="2025-01-13T16:51:52 IST" name="logout" finished-at="2025-01-13T16:51:54 IST" duration-ms="1848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- com.orange.hrm.test.HomePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- searchLeave -->
+      </class> <!-- testng.demo.xmlfile -->
+    </test> <!-- orangehrm -->
+  </suite> <!-- sampleSuite -->
 </testng-results>

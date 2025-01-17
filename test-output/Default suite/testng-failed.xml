@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listener.demo.Ilistner">
+      <class name="com.orange.hrm.test.LoginTest">
         <methods>
-          <include name="logout"/>
+          <include name="loginWithValidUserNameAndValidPassword"/>
+          <include name="initDriver"/>
         </methods>
-      </class> <!-- Listener.demo.Ilistner -->
+      </class> <!-- com.orange.hrm.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,14 +1,12 @@
 package com.orange.hrm.pages;
 
-import java.lang.System.Logger;
-import java.util.logging.LogManager;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.orange.hrm.test.BaseTest;
 import com.report.ExtentReportUtils;
+
 
 public class LoginPage {
 
@@ -19,7 +17,7 @@ public class LoginPage {
 	
 	
 	//password
-	@FindBy(name = "password")
+	@FindBy(xpath = "//input[@placeholder='Password']")
 	WebElement PasswordTextBox;
 	
 	

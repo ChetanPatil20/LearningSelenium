@@ -12,6 +12,7 @@ public class HomePage {
 	//admin link
 	@FindBy(xpath = "//span[text()='Admin']")
 	WebElement adminlink;
+
 	
 	
 	//logout
